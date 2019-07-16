@@ -1,3 +1,5 @@
+# app\controllers\admin\tests_controller.rb
+
 class TestsController < ApplicationController
 
   # ファイルアップロード
