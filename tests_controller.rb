@@ -113,4 +113,9 @@ class TestsController < ApplicationController
     formatted_params
   end
 
+  # 数値のみか
+  def numerical?(str)
+    str.to_s.match(/^[0-9]+$/).present? ? true : false
+  end
+
 end
